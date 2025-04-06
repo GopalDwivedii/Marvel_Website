@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
+# Marvel Photocard Showcase 🌟
 
-## Project info
+[![GitHub License](https://img.shields.io/github/license/GopalDwivedii/Marvel_Website)](https://github.com/GopalDwivedii/Marvel_Website/blob/main/LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-18.x-green)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
 
-**URL**: https://lovable.dev/projects/4bd938b8-2294-4829-9d0a-de2b34325d35
+A dynamic website showcasing Marvel characters and comics using the **Marvel Developer API**. Built with TypeScript, TSX, and Node.js.
 
-## How can I edit this code?
+👉 **Live Demo** (if deployed): [Link Here](#)  
+🔗 **API Source**: [Marvel Developer Portal](https://developer.marvel.com/)
 
-There are several ways of editing your application.
+![Marvel Showcase Preview](screenshots/preview.png) <!-- Add your own screenshot -->
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4bd938b8-2294-4829-9d0a-de2b34325d35) and start prompting.
+## 🚀 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🔍 Search for Marvel characters/comics by name
+- 🎨 Dynamic photocard grid with hover effects
+- 📖 Detailed character/comic information
+- 🌐 Responsive design for all devices
+- ⚡ Fast TypeScript-powered backend
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ⚙️ Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/GopalDwivedii/Marvel_Website.git
+   cd Marvel_Website
 
-Follow these steps:
+Install dependencies:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+bash
+Copy
+npm install
+Get Marvel API Keys:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Register at Marvel Developer Portal
 
-# Step 3: Install the necessary dependencies.
-npm i
+Create .env file:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Copy
+MARVEL_PUBLIC_KEY=your_public_key
+MARVEL_PRIVATE_KEY=your_private_key
+PORT=3000
+
+🖥️ Usage
+Start development server:
+
+bash
+Copy
 npm run dev
-```
+Build and run production:
 
-**Edit a file directly in GitHub**
+bash
+Copy
+npm run build
+npm start
+Visit http://localhost:3000 in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🛠️ Technologies
+Backend: Node.js, Express, TypeScript
 
-**Use GitHub Codespaces**
+Frontend: HTML5, CSS3, Vanilla JavaScript
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Tools: TSX, Axios, Marvel API
 
-## What technologies are used for this project?
+Styling: CSS Grid/Flexbox, Modern Animations
 
-This project is built with:
+🌐 API Endpoints
+Route	Description
+/characters	Get Marvel character cards
+/comics	Retrieve comic collections
+/search	Search functionality
+🙌 Acknowledgements
+Marvel Comics for their incredible API
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+TSX maintainers for the blazing-fast runtime
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4bd938b8-2294-4829-9d0a-de2b34325d35) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Node.js community for awesome tooling
