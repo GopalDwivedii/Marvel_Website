@@ -6,7 +6,7 @@
 
 A dynamic website showcasing Marvel characters and comics using the **Marvel Developer API**. Built with TypeScript, TSX, and Node.js.
 
-👉 **Live Demo** (if deployed): [Link Here](#)  
+👉 **Live Demo**: [Link Here](#)  
 🔗 **API Source**: [Marvel Developer Portal](https://developer.marvel.com/)
 
 ![Marvel Showcase Preview](screenshots/preview.png) <!-- Add your own screenshot -->
